@@ -31,3 +31,99 @@ p.more {
 }
 
 /* Your code here */
+/* PHASE 1 */
+* {
+  background-color: whitesmoke;
+  color: #464646; /* Charcoal Grey */
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+}
+/* PHASE 2 */
+a:visited {
+  color: #800080;
+}
+a:hover {
+  color: #800080;
+  font-weight: bold;
+}
+a > span:hover {
+  color: #800080;
+  font-weight: bold;
+}
+/* PHASE 3 */
+.page-container {
+  max-width: 1200px;
+}
+#leftbar, #rightbar, #center {
+  box-sizing:border-box;
+  float: left;
+  padding: 0 30px;
+}
+footer {
+  clear: both;
+}
+#leftbar, #rightbar {
+  width: 25%;
+}
+#center {
+  border: 1px solid #464646;
+  border-radius: 10px;
+  width: 50%;
+}
+#center > div {
+  float: left;
+  width: 33%;
+}
+#topban h2 {
+  text-align: center;
+}
+/* PHASE 4 */
+ul.clfooter {
+  border-top: 1px solid grey;
+  text-align: center;
+  padding: 10px 0;
+}
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+/* PHASE 5 */
+h4.ban::before {
+  content:'☮️'
+}
+/* BONUS PHASE */
+.cal {
+  border-collapse:collapse; 
+}
+.cal a {
+  background-color: transparent;
+  color: green;
+  font-weight: bold;
+}
+.cal td {
+  border: 1px solid #333;
+  text-align: center;
+}
+.cal td:hover {
+  background-color: lavender;
+}
+.cal .past {
+  color: rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+.cal .today, .cal .today a {
+  background-color: purple;
+  color: white;
+}
+/* bonus bonus */
+body {
+  /* padding: 0 20%; */
+}
