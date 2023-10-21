@@ -1,0 +1,83 @@
+#root {
+  padding: 0 15% 0 15%;
+}
+.content {
+  padding: 0 20%;
+}
+.grid {
+  padding: 0 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+.fas {
+  color: black;
+}
+.nav__upper {
+  padding: 10px;
+  position:relative;
+}
+.upper__right {
+  font-family: sans-serif;
+  position: absolute;
+  right:0;
+  top:10px;
+}
+.upper__right a {
+  color: green;
+  text-decoration: none;
+}
+.get-started {
+  border: 1px solid green;
+  border-radius: 3px;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+.nav__lower {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+.nav__lower a {
+  color: grey;
+  text-decoration: none;
+  font-size: .8em;
+}
+.main__img {
+  width: 100%;
+}
+.content > p {
+  text-align: justify;
+}
+.grid {
+  display: grid;
+  gap: 10px 80px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.grid a {
+  color: #444444;
+  font-size: .9em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.footer__right {
+  position: absolute;
+  right:0;
+  top:0;
+}
+.footer__right a {
+  color: grey;
+  text-decoration: none;
+}
+.help {
+  margin-left: 30px;
+}
